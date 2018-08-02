@@ -91,8 +91,7 @@ public class TestBase {
     public void toGroupPage() {
         wd.findElement(By.linkText("groups")).click();
     }
-
-
+    
     public void toContactPage() {
         wd.findElement(By.linkText("contact")).click();
     }
